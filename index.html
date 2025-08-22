@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyanshu Goswami • Portfolio</title>
+  <meta name="description" content="Portfolio of Priyanshu Goswami — Full Stack Developer | ML & Cybersecurity Enthusiast." />
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-9q9b8mJw3m9H6y5yJrXbO0s6p9H7mU5Q7y6lGJmE5q4b3t7k8d4x2k6w1k2v4x9u6y5z" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#">PG<span>.</span></a>
+      <button id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle" class="btn ghost" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero__text">
+        <h1>Hi, I'm <span>Priyanshu</span> 👋</h1>
+        <p class="subtitle">Full‑Stack Developer • ML & Cybersecurity</p>
+        <p class="desc">
+          I build clean, performant web apps with React/Node and ship fast. Passionate about
+          solving real‑world problems with code.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="assets/Priyanshu_Goswami_Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        </div>
+        <div class="socials">
+          <a aria-label="GitHub" href="https://github.com/priyanshugoswami9027" target="_blank" rel="noopener"><i class="fab fa-github fa-2x"></i></a>
+          <a aria-label="LinkedIn" href="https://linkedin.com/in/priyanshugoswami01" target="_blank" rel="noopener"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a aria-label="LeetCode" href="https://leetcode.com/u/rockey_876" target="_blank" rel="noopener"><i class="fa-solid fa-code"></i></a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <img src="assets/images/avatar.jpg" alt="Priyanshu avatar" />
+      </div>
+    </section>
+
+    <section class="container section" id="about">
+      <h2 class="section-title">About</h2>
+      <p>
+        B.Tech CSE @ COER University (2022–2026). I love working across the stack: React, Node,
+        Express, MongoDB, PostgreSQL; deploy on AWS/Vercel. Comfortable with Python for ML and
+        data pipelines. Actively exploring security and DevOps best practices.
+      </p>
+    </section>
+
+    <section class="container section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="tags">
+        <span>JavaScript</span><span>TypeScript</span><span>React</span><span>Node</span><span>Express</span>
+        <span>MongoDB</span><span>PostgreSQL</span><span>Docker</span><span>AWS</span><span>Git</span>
+        <span>Python</span><span>TensorFlow</span><span>OpenCV</span><span>Linux</span>
+      </div>
+    </section>
+
+    <section class="container section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="grid projects">
+        <article class="card">
+          <img src="assets/images/project1.svg" alt="Multi-Object Detection" />
+          <div class="card-body">
+            <h3>Multi‑Object Detection System</h3>
+            <p>YOLOv5 + OpenCV + Flask. Real‑time detection for vehicles & people; optimized 35% faster inference.</p>
+            <div class="chips"><span>YOLOv5</span><span>OpenCV</span><span>Flask</span></div>
+            <div class="actions">
+              <a class="btn sm" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn sm ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/project2.svg" alt="E‑Commerce Platform" />
+          <div class="card-body">
+            <h3>E‑Commerce Platform</h3>
+            <p>React + Firebase + Stripe. Secure checkout and CI/CD to AWS. Page loads 30% faster via code‑split.</p>
+            <div class="chips"><span>React</span><span>Firebase</span><span>Stripe</span></div>
+            <div class="actions">
+              <a class="btn sm" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn sm ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/images/project3.png" alt="AI & ML Agency Clone" />
+          <div class="card-body">
+            <h3>AI & ML Agency Website</h3>
+            <p>React + GSAP + Node. Smooth animations and SEO‑friendly content; deployed on Vercel.</p>
+            <div class="chips"><span>React</span><span>GSAP</span><span>Node</span></div>
+            <div class="actions">
+              <a class="btn sm" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn sm ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section" id="experience">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="t-item">
+          <div class="t-bullet"></div>
+          <div>
+            <h3>Bharat Intern — Full Stack Developer</h3>
+            <p class="meta">Jul 2024 – Sept 2024</p>
+            <ul>
+              <li>Built scalable apps with React, Node, MongoDB; shaved ~30% off load times.</li>
+              <li>Designed REST APIs and secured auth with JWT/OAuth; deployed on AWS & Vercel.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-bullet"></div>
+          <div>
+            <h3>CodSoft — Python Intern</h3>
+            <p class="meta">Sept 2023 – Nov 2023</p>
+            <ul>
+              <li>Automation scripts reducing processing time by ~40%.</li>
+              <li>ML models with Pandas/Matplotlib improving prediction accuracy by ~20%.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact">
+        <p>Want to collaborate or just say hi? Let’s connect!</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:priyanshugoswami089@gmail.com">Email Me</a>
+          <a class="btn" href="https://linkedin.com/in/priyanshugoswami01" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <!-- Optional: Simple Formspree form
+        <form action="https://formspree.io/f/your_id" method="POST" class="contact-form">
+          <input name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+          <button class="btn primary" type="submit">Send</button>
+        </form> -->
+      </div>
+    </section>
+  </main>
+<section id="contact" class="contact-section">
+  <h2 data-aos="zoom-in-up">Contact Me</h2>
+  <p data-aos="fade-up">Feel free to reach out by filling this form 👇</p>
+
+  <form action="https://formspree.io/f/your-form-id" method="POST" data-aos="fade-up">
+    <div class="form-group">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="_replyto" required placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required placeholder="Write your message..."></textarea>
+    </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Priyanshu Goswami. Built with ❤️ & vanilla HTML/CSS/JS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,  // animation ka speed (ms)
+  });
+</script>
+
+</body>
+</html>

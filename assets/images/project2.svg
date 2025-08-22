@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#00e0a4"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0e1116"/>
+  <rect x="40" y="40" width="1120" height="520" rx="28" fill="#12151a" stroke="#1d222b" stroke-width="6"/>
+  <text x="50%" y="52%" text-anchor="middle" font-size="44" fill="#e7ecf3" font-family="Poppins, Arial">E‑Commerce Platform</text>
+  <rect x="420" y="440" width="360" height="10" fill="url(#g)"/>
+</svg>
